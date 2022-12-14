@@ -1,0 +1,25 @@
+/*color schemes
+    yellow: rgba(255, 249, 176, 1)
+    brown: rgba(130, 40, 46, 1) */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*footer*/
+footer{
+    height:100px;
+    background-color: rgba(255, 249, 176,1);
+    text-align: right;
+}
+/*social media icons*/
+.social-media-icons{
+    height:200px;
+    background-color: rgba(255, 249, 176,1);
+    text-decoration: none;
+    
+}
+
+.test{
+    background-color: aqua;
+    color: red;
+}
