@@ -1,25 +1,69 @@
 /*color schemes
-    yellow: rgba(255, 249, 176, 1)
+    yellow: rgba(250, 230, 100, 1)
     brown: rgba(130, 40, 46, 1) */
 *{
     font-family: 'Roboto', sans-serif;
 }
 
+/*navbar*/
+nav{
+    background-color: rgba(250, 230, 100);
+    display: flex;
+    justify-content: flex-end;
+
+}
+.navigation-bar{
+    height: 100px;
+    list-style-type: none;
+}
+h3{
+    text-align: center;
+}
+
+
+li{
+    font-weight: 'Roboto' bold 700;
+    font-size: 29px;
+    display: inline;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/*submit*/
+.submit-border{
+    border:1 px bold yellow;
+}
+
+
 /*footer*/
-footer{
+.footer-box{
     height:100px;
-    background-color: rgba(255, 249, 176,1);
+    background-color: rgba(250, 230, 100,1);
     text-align: right;
 }
 /*social media icons*/
 .social-media-icons{
-    height:200px;
-    background-color: rgba(255, 249, 176,1);
+    height:50px;
     text-decoration: none;
+    text-align: center;
     
 }
-
-.test{
-    background-color: aqua;
-    color: red;
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color:white;
+  }
+.fa:hover {
+    opacity: 0.7;
 }
+  
+ 
